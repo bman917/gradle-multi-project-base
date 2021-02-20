@@ -17,6 +17,7 @@ ext {
 }
 
 dependencies {
+	implementation project(':app-interface')
 	implementation 'org.springframework.cloud:spring-cloud-starter-task'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

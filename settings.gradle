@@ -1,0 +1,7 @@
+rootProject.name = 'parent-app'
+include('app-interface')
+include('hello')
+
+project(':app-interface').projectDir = file('00-shared-libs/app-interface')
+project(':hello').projectDir = file('01-child-apps/hello')
+
